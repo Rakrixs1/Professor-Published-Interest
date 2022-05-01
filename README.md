@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-![Dashboard](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
+![Dashboard](images/2022-05-01-13-05-36.gif)
 
 The purpose of the application is to provide students and staff information of most published keywords including:
 - top published keyword in each state
