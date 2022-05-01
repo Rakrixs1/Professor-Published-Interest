@@ -61,10 +61,12 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+Install packages
+   ```sh
+   pip install pandas
+   pip install mongodb
+   pip install dash
+   pip install plotly-express
   ```
 
 ### Installation
@@ -75,14 +77,7 @@ _Below is an example of how you can instruct your audience on installing and set
    ```sh
    git clone https://github.com/Rakrixs1/Professor-Published-Interest
    ```
-2. Install packages
-   ```sh
-   pip install pandas
-   pip install mongodb
-   pip install dash
-   pip install plotly-express
-   ```
- 3. Run app.py
+ 2. Run app.py
    ```sh
    app.py
    ```
