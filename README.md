@@ -98,7 +98,7 @@ If the user is a student it can provide information when seeking out professors 
 
 If the user is a professor it can provide information on their collegues and themselves. By using the keyword dropdown the professor can compare among other collegues. They will also be able to select their name to give visibility of accumulated number of citations they have. 
 
-_For more examples, please refer to the [Video Demo](https://example.com)_
+_For more examples, please refer to the [Video Demo](https://mediaspace.illinois.edu/media/t/1_1co0bp4m)_
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -163,7 +163,7 @@ Project Link: [https://github.com/Rakrixs1/](https://github.com/Rakrixs1)
 <!-- VIDEO -->
 ## Video
 
-* [Serie A (football) — a simple dashboard with Plotly & Dash](https://towardsdatascience.com/create-a-simple-dashboard-with-plotly-dash-8f385ba1dd6d)
+* [ProfessorsPublishedInterest-FinalProject-CS411](https://mediaspace.illinois.edu/media/t/1_1co0bp4m)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
