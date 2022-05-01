@@ -22,7 +22,7 @@
     <li><a href="#design">Database Techniques</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
-    <li><a href="#video">Acknowledgments</a></li>
+    <li><a href="#video">Video</a></li>
   </ol>
 </details>
 
