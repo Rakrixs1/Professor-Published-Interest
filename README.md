@@ -75,7 +75,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/Rakrixs1/Professor-Published-Interest
+   git clone https://github.com/Rakrixs1/Professor-Published-Interest.git
    ```
  2. Run app.py
    ```sh
