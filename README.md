@@ -106,7 +106,7 @@ _For more examples, please refer to the [Video Demo](https://mediaspace.illinois
     - mongodb
     - mysql
     - neo4j1
-    - data
+    - data - additional state information stored in the tables inside the file
       - pf
       - prof_score
  - images
