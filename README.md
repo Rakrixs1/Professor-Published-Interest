@@ -23,6 +23,7 @@
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
     <li><a href="#video">Video</a></li>
+    <li><a href="#extra credit">Extra Credit</a></li>
   </ol>
 </details>
 
@@ -163,6 +164,14 @@ Project Link: [https://github.com/Rakrixs1/](https://github.com/Rakrixs1)
 ## Video
 
 * [Serie A (football) — a simple dashboard with Plotly & Dash](https://towardsdatascience.com/create-a-simple-dashboard-with-plotly-dash-8f385ba1dd6d)
+
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- EXTRA CREDIT -->
+## Extra Credit
+
+Additional US database was required to display professors in their perspective states in the US MAP Widget. Multiple hours went into datacleaning. New db was created with the merge or the mysql academic world db.
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
