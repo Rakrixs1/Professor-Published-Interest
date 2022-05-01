@@ -18,9 +18,11 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#design">Roadmap</a></li>
+    <li><a href="#design">Design</a></li>
+    <li><a href="#design">Database Techniques</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li><a href="#video">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -104,32 +106,30 @@ _For more examples, please refer to the [Video Demo](https://example.com)_
 <!-- DESIGN -->
 ## Design
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+ - app.py
+    - mongodb
+    - mysql
+    - neo4j1
+    - data
+      - pf
+      - prof_score
+ - images
+      - 2022-05-01-13-05-36
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- DATABASE TECHNIQUES -->
 ## Database Techniques
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+The following techniques where used in the creation of the dashboard
+- Indexing
+  - used pandas to reset index for mysql academic world table.
+- View
+  - When using academic world database mySQL Query, Neo4j query, mongodb database query to display the table
+- Stored procedure
+- Prepared Statement
+  - The queries used to import the data. These where store in variables along the app.py file. 
+    - Examples: faculty_mongo, keyword_search  
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -149,33 +149,20 @@ Project Link: [https://github.com/Rakrixs1/](https://github.com/Rakrixs1)
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+* [Mongodb](https://www.mongodb.com/)
+* [Neo4j](https://neo4j.com/)
+* [MySQL](https://www.mysql.com/)
+* [Pandas](https://pandas.pydata.org/docs/index.html)
+* [Dash](https://dash.plotly.com/)
+* [Serie A (football) — a simple dashboard with Plotly & Dash](https://towardsdatascience.com/create-a-simple-dashboard-with-plotly-dash-8f385ba1dd6d)
+* [Creating an interactive dashboard with Dash Plotly using crime data](https://towardsdatascience.com/creating-an-interactive-dashboard-with-dash-plotly-using-crime-data-a217da841df3)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+<!-- VIDEO -->
+## Video
+
+* [Serie A (football) — a simple dashboard with Plotly & Dash](https://towardsdatascience.com/create-a-simple-dashboard-with-plotly-dash-8f385ba1dd6d)
 
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
-[product-screenshot]: images/screenshot.png
+<p align="right">(<a href="#top">back to top</a>)</p>
